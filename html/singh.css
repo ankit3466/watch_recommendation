@@ -1,0 +1,90 @@
+body{
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url("pawan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    align-items: center;
+    
+} 
+
+.loginbox{
+    margin: 20px;
+    padding: 100px 60px;
+    background: rgba(104, 248, 232, 0.53);
+    color: rebeccapurple;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: content-box;
+    align-items: center;
+}
+
+.avatar{
+    width: 90px;
+    border-radius: 500px;
+    position: absolute;
+    top: -40px;
+    left: calc(60% - 70px);
+}
+.loginbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-display: block;
+    color: crimson;
+    
+}
+
+.loginbox p{
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    font-weight: bold;
+    color: firebrick
+}
+
+.loginbox input{
+    width: 90%;
+    margin: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.loginbox button
+{  
+    top: 85%;
+    left: 25%;
+    position: absolute;
+    padding: 10px 70px;
+    align-self: center;
+    border: none;
+    outline: none;
+    background: #fb2525;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 20px;
+    
+}
+
+.loginbox button:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
