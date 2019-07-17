@@ -1,0 +1,5 @@
+This code uses YOLO version3 famework to detect an Object.
+
+For this you need to download the dependencies that are provided in Dependencies file.
+
+After download the dependencies you need to write the code where your downloaded files are.
